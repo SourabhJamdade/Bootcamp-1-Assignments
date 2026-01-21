@@ -1,0 +1,93 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 - Center Div</title>
+    <style>
+        body {
+            font-family: "Roboto", sans-serif;
+            /* font-weight: 800; */
+            background: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="min-height: 100vh; display: flex; flex-direction: column; align-items: center;">
+        <div style="margin-top: 15px;  font-weight: 900; padding: 20px;">IIElevenLabs</div>
+        <div style=" flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 40px;">
+
+            <h3 style="text-align: center;">Create an account</h3>
+            <label for="email">Email</label>
+            <input
+                style=" margin-top: 10px; margin-bottom: 10px; width: 100%; border-radius: 12px; border-width: 2px;font-size: 20px; padding: 2px 5px 2px;"
+                type="email" name="email" id="email  ">
+
+            <label for="password">Password</label>
+            <input
+                style=" margin-top: 10px; width: 100%; border-radius: 12px; border-width: 2px;font-size: 20px; padding: 2px 5px 2px;"
+                type="password" name="password" id="password">
+
+            <div
+                style=" width: 100%;padding: 10px; margin-top: 15px; cursor: pointer; text-align: center; border-radius: 12px; background-color: #1f1f1f; color: rgb(255, 255, 255);">
+                Sign up</div>
+            <p style="text-align: center;">Already registered?
+                <a style="color: #1f1f1f;" href="/">Sign in</a>
+            </p>
+        </div>
+        <div style="background-color: rgba(0, 0, 0, .02); padding: 20px;">By continuing, you agree to our Terms of
+            Service and Privacy Policy.</div>
+    </div>
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outer Structure</title>
+</head>
+
+<body style="margin:0; font-family: system-ui, -apple-system, sans-serif;">
+
+    <!-- Full page container -->
+    <div style="min-height:100vh; display:flex; flex-direction:column;">
+
+        <!-- Logo at top -->
+        <div style="text-align:center; padding:16px;">
+            Logo
+        </div>
+
+        <!-- Center area (flexible) -->
+        <div style="flex:1; display:flex; align-items:center; justify-content:center; padding:16px;">
+
+            <!-- Card container (max width, centered content) -->
+            <div
+                style="max-width:420px; width:100%; border-radius:16px; border:1px solid #e6e6e6; padding:32px; display:flex; flex-direction:column; gap:16px;">
+
+                <!-- Form / content will go here -->
+                <!-- Example placeholder -->
+                <div>Form goes here</div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div style="text-align:center; padding:16px; font-size:14px; color:#666;">
+            Footer
+        </div>
+
+    </div>
+
+</body>
+
+</html>
